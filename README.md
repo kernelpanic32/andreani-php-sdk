@@ -8,7 +8,7 @@ Ejemplo para cotizar un paquete:
 ```
 require("andreani/andreani.php");
 
-$andreaniWs = new Andreani($USUARIO, $CLAVE, TRUE);
+$andreaniWs = new Andreani($USUARIO, $CLAVE, TRUE); //true > sandbox / false > produccion
 
 $bultos = array();
 				
